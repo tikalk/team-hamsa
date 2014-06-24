@@ -2,9 +2,10 @@ this.require([
     'jquery',
     'backbone',
     'app',
-    'marionette'
+    'routers/Router',
+    'controllers/FeedController'
 ],
-function($, Backbone, App, Marionette){
+function($, Backbone, App, Router, FeedController){
     'use strict';
     var global = window || this,
         $doc = $(global.document),
@@ -12,6 +13,10 @@ function($, Backbone, App, Marionette){
     // Define your master router on the application namespace and trigger all
     // navigation from this instance.
     App.start();
+
+    new Router({
+        controller: FeedController
+    });
 
     // Trigger the initial route and enable HTML5 History API support
     Backbone.history.start({
