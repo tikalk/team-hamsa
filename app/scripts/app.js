@@ -1,11 +1,11 @@
 define([
-    "underscore",
-    "backbone",
-    "marionette"
+    'underscore',
+    'backbone',
+    'marionette'
 ],
 
-function (_, Backbone) {
-
+function(_, Backbone, Marionette){
+    'use strict';
     var App = new Backbone.Marionette.Application();
 
     // An init function for your main application object
