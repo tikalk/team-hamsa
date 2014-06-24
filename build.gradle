@@ -30,8 +30,8 @@ publishing {
 }
 
 bintray {
-    user = 'crabitcoo'
-    key = 'c4148b6cb01eb14bda3d54635d6897d158b019c7'
+    user = 'bkomraz1'
+    key = 'd68fe59f5f98715515e0a403754b1befeb1e87d5'
 
     publications = ['mavenJava']
 
