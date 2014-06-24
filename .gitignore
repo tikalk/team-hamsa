@@ -9,3 +9,6 @@ app/bower_components
 /.gradle
 /.metadata
 /.settings
+/.classpath
+/.project
+/logs
