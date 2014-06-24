@@ -4,3 +4,8 @@ dist
 .sass-cache
 app/bower_components
 .tmp/
+/bin
+/build
+/.gradle
+/.metadata
+/.settings

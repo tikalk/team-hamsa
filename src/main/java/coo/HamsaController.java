@@ -14,17 +14,17 @@ public class HamsaController {
 	private static final String template = "Hello, %s!";
 	private final AtomicLong counter = new AtomicLong();
 
-	@RequestMapping(value="/users" ,method = RequestMethod.GET)
-	public @ResponseBody
-	TweetsService getUsers(
+	@RequestMapping(value = "/users", method = RequestMethod.GET)
+	@ResponseBody
+	public TweetsService getUsers(
 			@RequestParam(value = "name", required = false, defaultValue = "Stranger") String name) {
 		return new TweetsService(counter.incrementAndGet(), String.format(
 				template, name));
 	}
-	
-	@RequestMapping(value="/tweets" ,method = RequestMethod.GET)
-	public @ResponseBody
-	TweetsService getTweets(
+
+	@RequestMapping(value = "/tweets", method = RequestMethod.GET)
+	@ResponseBody
+	public TweetsService getTweets(
 			@RequestParam(value = "name", required = false, defaultValue = "Stranger") String name) {
 		return new TweetsService(counter.incrementAndGet(), String.format(
 				template, name));
