@@ -1,0 +1,41 @@
+{
+  "name": "team-hamsa",
+  "homepage": "https://github.com/tikalk/team-hamsa",
+  "authors": [
+    "adam@tikalk.com",
+    "nickolay@tikalk.com"
+  ],
+  "keywords": [
+    "twitter",
+    "life-cycle"
+  ],
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": "true",
+  "dependencies": {
+    "fastclick": ">=0.6.11",
+    "foundation": "zurb/bower-foundation",
+    "marionette": "~1.0.2",
+    "react": "~0.10.0",
+    "requirejs": "~2.1.4",
+    "backbone.wreqr": "0.2.0",
+    "backbone.eventbinder": "1.0.2",
+    "backbone.babysitter": "0.0.6",
+    "lodash": "1.3.1",
+    "jquery": "2.0.0",
+    "marionette-dust": "0.1.6",
+    "backbone": "~1.1.2"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "jquery": ">= 2.1.0",
+    "backbone": "~1.1.2",
+    "underscore": ">=1.5.0"
+  }
+}
