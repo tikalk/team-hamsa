@@ -26,7 +26,11 @@ module.exports = function (grunt) {
         watch: {
             compass: {
                 files: ['app/hamsa-style/scss/{,*/}*.{scss,sass}'],
-                tasks: ['compass:server']
+                tasks: ['compass:server'],
+                options: {
+                    basePath: 'app/hamsa-style/',
+                    config: 'app/hamsa-style/config.rb'
+                }
             },
             livereload: {
                 files: [
