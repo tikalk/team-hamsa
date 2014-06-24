@@ -25,16 +25,16 @@ module.exports = function (grunt) {
         yeoman: yeomanConfig,
         watch: {
             compass: {
-                files: ['app/hamsa-style/scss/{,*/}*.{scss,sass}'],
-                tasks: ['compass:server'],
+                files: ['app/scss/{,*/}*.{scss,sass}'],
+                tasks: ['compass:server']
                 // compile: {
                 //     options: {
                 //         config: 'app/hamsa-style/config.rb'
                 //     }
                 // }
                 // options: {
-                //     basePath: 'app/hamsa-style/',
-                //     config: 'app/hamsa-style/config.rb'
+                //     basePath: 'app/',
+                //     config: 'app/config.rb'
                 // }
             },
             livereload: {
@@ -115,14 +115,14 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
-                sassDir: 'app/hamsa-style/scss',
-                cssDir: 'app/styles',
-                imagesDir: 'app/images',
-                javascriptsDir: 'app/scripts',
-                fontsDir: 'app/styles/fonts',
-                importPath: 'app/hamsa-style/bower_components/foundation/scss',
-                httpImagesPath: '/images',
-                httpGeneratedImagesPath: '/images',
+                sassDir: 'app/scss',
+                cssDir: 'app/css',
+                imagesDir: 'app/img',
+                javascriptsDir: 'app/js',
+                fontsDir: 'app/css/fonts',
+                importPath: 'app/bower_components/foundation/scss',
+                httpImagesPath: '/img',
+                httpGeneratedImagesPath: '/img',
                 relativeAssets: false
             },
             dist: {},

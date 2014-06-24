@@ -2,5 +2,13 @@ node_modules
 temp
 dist
 .sass-cache
-app/bower_components
 .tmp/
+/bin
+/build
+/.gradle
+/.metadata
+/.settings
+/.classpath
+/.project
+/logs
+/app/css/
