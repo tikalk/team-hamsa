@@ -11,4 +11,4 @@ dist
 /.classpath
 /.project
 /logs
-/app/css/
+*.css

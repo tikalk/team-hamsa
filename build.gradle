@@ -21,6 +21,8 @@ apply plugin: 'bintray'
 apply plugin: 'java'
 apply plugin: 'spring-boot'
 
+webAppDirName = 'app'
+
 publishing {
     publications {
         mavenJava(MavenPublication) {
