@@ -18,7 +18,7 @@ function(Marionette, HeaderView) {
         footer: 'footer'
     });
     App.addInitializer(function(){
-        // console.log('hello from App', this);
+        console.log('hello from App', this);
         this.header.show(new HeaderView());
     });
 
