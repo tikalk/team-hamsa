@@ -26,7 +26,16 @@ module.exports = function (grunt) {
         watch: {
             compass: {
                 files: ['app/hamsa-style/scss/{,*/}*.{scss,sass}'],
-                tasks: ['compass:server']
+                tasks: ['compass:server'],
+                // compile: {
+                //     options: {
+                //         config: 'app/hamsa-style/config.rb'
+                //     }
+                // }
+                // options: {
+                //     basePath: 'app/hamsa-style/',
+                //     config: 'app/hamsa-style/config.rb'
+                // }
             },
             livereload: {
                 files: [
@@ -106,12 +115,12 @@ module.exports = function (grunt) {
         },
         compass: {
             options: {
-                sassDir: 'app/styles',
-                cssDir: '.tmp/styles',
+                sassDir: 'app/hamsa-style/scss',
+                cssDir: 'app/styles',
                 imagesDir: 'app/images',
                 javascriptsDir: 'app/scripts',
                 fontsDir: 'app/styles/fonts',
-                importPath: 'app/bower_components',
+                importPath: 'app/hamsa-style/bower_components/foundation/scss',
                 httpImagesPath: '/images',
                 httpGeneratedImagesPath: '/images',
                 relativeAssets: false
