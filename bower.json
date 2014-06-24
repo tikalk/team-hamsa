@@ -1,0 +1,25 @@
+{
+  "name": "team-hamsa",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tikalk/team-hamsa",
+  "authors": [
+    "adam@tikalk.com"
+  ],
+  "main": "?",
+  "keywords": [
+    "twitter",
+    "life-cycle"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marionette": "~2.0.1",
+    "react": "~0.10.0"
+  }
+}
