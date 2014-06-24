@@ -25,7 +25,7 @@ module.exports = function (grunt) {
         yeoman: yeomanConfig,
         watch: {
             compass: {
-                files: ['app/styles/{,*/}*.{scss,sass}'],
+                files: ['app/hamsa-style/scss/{,*/}*.{scss,sass}'],
                 tasks: ['compass:server']
             },
             livereload: {
