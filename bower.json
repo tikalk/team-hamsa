@@ -1,7 +1,25 @@
 {
   "name": "team-hamsa",
+  "homepage": "https://github.com/tikalk/team-hamsa",
+  "authors": [
+    "adam@tikalk.com",
+    "nickolay@tikalk.com"
+  ],
+  "keywords": [
+    "twitter",
+    "life-cycle"
+  ],
   "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
+    "marionette": "~2.0.1",
+    "react": "~0.10.0",
     "requirejs": "~2.1.4",
     "marionette": "~1.0.2",
     "backbone.wreqr": "0.2.0",
@@ -12,6 +30,5 @@
     "marionette-dust": "0.1.6"
   },
   "devDependencies": {
-
   }
 }
