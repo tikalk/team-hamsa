@@ -37,13 +37,13 @@ bintray {
 
     pkg {
         repo = 'maven'
-        name = 'coo-manage'
+        name = 'team-hamsa'
         licenses = ['MIT']
     }
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 configurations {
     provided
