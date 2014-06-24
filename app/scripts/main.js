@@ -1,4 +1,4 @@
-require([
+this.require([
     'jquery',
     'backbone',
     'app',
@@ -6,7 +6,7 @@ require([
 ],
 function($, Backbone, App, Marionette){
     'use strict';
-    var global = this.window || this,
+    var global = window || this,
         $doc = $(global.document),
         loc = global.location;
     // Define your master router on the application namespace and trigger all
