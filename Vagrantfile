@@ -83,8 +83,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       chef.add_recipe 'apt'
       chef.add_recipe 'java'
       chef.add_recipe 'mongodb'
-      chef.add_recipe 'storm::nimbus'
+#      chef.add_recipe 'storm::nimbus'
 #      chef.add_recipe 'storm'
+      chef.add_recipe 'team-hamsa-deploy'
 
       chef.json = {
           "java" => {
